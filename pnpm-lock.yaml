@@ -5,12 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@next/swc-linux-x64-gnu':
-    specifier: 14.2.1-canary.4
-    version: 14.2.1-canary.4
-  '@next/swc-linux-x64-musl':
-    specifier: 14.2.1-canary.4
-    version: 14.2.1-canary.4
   next:
     specifier: 14.2.1-canary.4
     version: 14.2.1-canary.4(react-dom@18.2.0)(react@18.2.0)
@@ -218,6 +212,7 @@ packages:
     os: [linux]
     requiresBuild: true
     dev: false
+    optional: true
 
   /@next/swc-linux-x64-musl@14.2.1-canary.4:
     resolution: {integrity: sha512-w0EhZ19XbY6ga8/d40+vTqwVELP9xS3cQ1ARZAZouXjW4qZ3t+havdWFqZx28Xi28M2h1UDlA8M3wbELxxjHTg==}
@@ -226,6 +221,7 @@ packages:
     os: [linux]
     requiresBuild: true
     dev: false
+    optional: true
 
   /@next/swc-win32-arm64-msvc@14.2.1-canary.4:
     resolution: {integrity: sha512-YH7n93shAV2IqPSYaieHAN8gmO8FrnHlz4a16Kvn3CqHVYWVscnfgluI/R8HLhYLtFQ0g/maVU400YbMJc5Zbw==}
